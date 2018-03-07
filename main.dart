@@ -2,6 +2,6 @@ import 'signalr.dart';
 
 void main() {
   //print('Hello, World!');
-  var x = new SignalRConnection();
-  x.connect('test');
+  var connection = SignalRConnection.connect('wss://csim.ngrok.io/signalr/connect');
+
 }
